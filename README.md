@@ -1,151 +1,95 @@
-<h2><img src="https://emojis.slackmojis.com/emojis/images/1643514093/2393/hacker_cat.gif" width="30"/> meet-the-1337</h2>
+<div align="center">
+  
+<!-- Typing SVG -->
+<a href="https://github.com/meet-the-1337">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=meet-the-1337;Offensive+Security;AI+Systems+Builder" alt="Typing SVG" />
+</a>
 
-<p>
-  <em>Offensive Security & AI Systems · B.Tech CSE @ <a href="https://www.thapar.edu/">Thapar Institute</a></em>
-</p>
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/-Manan_Singhal-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manan-singhal-a566aa321/)
-[![TryHackMe](https://img.shields.io/badge/-MeetThe1337-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/MeetThe1337)
-[![picoCTF](https://img.shields.io/badge/-picoCTF_(120+_solves)-1a1a2e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHRleHQgeD0iMCIgeT0iMjAiIGZvbnQtc2l6ZT0iMjAiPjwvdGV4dD48L3N2Zz4=&logoColor=white)](https://play.picoctf.org/)
-[![GitHub](https://img.shields.io/badge/-meet--the--1337-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/meet-the-1337)
-[![Medium](https://img.shields.io/badge/-@msinghal1__be24-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@msinghal1_be24)
+**`Offensive Security & AI Systems`** · B.Tech CSE @ [Thapar Institute](https://www.thapar.edu/)
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/manan-singhal-a566aa321/)
+[![TryHackMe](https://img.shields.io/badge/-TryHackMe-212C42?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/MeetThe1337)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/man.an_17)
+[![Medium](https://img.shields.io/badge/-Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@msinghal1_be24)
+[![Reddit](https://img.shields.io/badge/-Reddit-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/user/loyaldog1337)
+[![Stack Overflow](https://img.shields.io/badge/-StackOverflow-FE7A16?style=flat&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/32120388/manan-singhal)
+[![Twitch](https://img.shields.io/badge/-Twitch-9146FF?style=flat&logo=twitch&logoColor=white)](https://twitch.tv/hitntrial)
+
+</div>
+
+---
 
 ```python
-#!/usr/bin/env python3
-"""meet-the-1337 — Offensive Security & AI Systems"""
-
-class MananSinghal:
-
-    def __init__(self):
-        self.alias       = "meet-the-1337"
-        self.role        = "Offensive Security Researcher & AI Systems Builder"
-        self.university  = "Thapar Institute of Engineering & Technology"
-        self.degree      = "B.Tech CSE (2024–2028) | CGPA: 8.11"
-
-    @property
-    def offensive_security(self):
-        return {
-            "ctf_platforms"   : ["picoCTF (120+ solves)", "TryHackMe (Daily Streak)", "PortSwigger Academy"],
-            "domains"         : ["Web Exploitation", "Cryptography", "Reverse Engineering",
-                                 "Digital Forensics", "Binary Exploitation"],
-            "tools"           : ["Burp Suite", "Wireshark", "Nmap", "Kali Linux", "Metasploit"],
-            "hardware_hacking": ["ESP32 WiFi Deauth (802.11)", "BLE Jamming", "Embedded C"],
-        }
-
-    @property
-    def ai_and_research(self):
-        return {
-            "agentic_ai"      : ["LangGraph", "Multi-Agent LLM Systems", "Local Qwen Inference (RTX 4060)"],
-            "graph_ml"        : ["Temporal Graph Neural Networks", "Blockchain Fraud Detection"],
-            "osint"           : ["30+ Live Data Sources", "deck.gl 3D WebGL", "ONNX Runtime Client-Side ML"],
-        }
-
-    @property
-    def stack(self):
-        return {
-            "languages"       : ["Python", "C", "C++", "Bash", "TypeScript"],
-            "backend"         : ["FastAPI", "Flask", "Node.js", "Express"],
-            "frontend"        : ["React", "Vite", "Tailwind", "deck.gl", "MapLibre"],
-            "databases"       : ["PostgreSQL", "SQLite", "MongoDB"],
-            "infra"           : ["Docker", "Nginx", "Tauri/Rust", "Vercel", "GitHub Actions"],
-            "security"        : ["Burp Suite", "Wireshark", "Nmap", "Cisco Packet Tracer"],
-        }
-
-    def current_focus(self):
-        return [
-            "AI-augmented offensive security tooling",
-            "Moving from CTF-style hacking → real pentesting methodology",
-            "Windows & Linux privilege escalation",
-            "How attackers actually think in enterprise environments",
-        ]
+class MeetThe1337:
+    role        = "Offensive Security Researcher & AI Systems Builder"
+    ctf         = ["picoCTF (120+ solves)", "TryHackMe (Daily Streak)", "PortSwigger Academy"]
+    domains     = ["Web Exploitation", "Cryptography", "RE", "Forensics", "Binary Exploitation"]
+    tools       = ["Burp Suite", "Wireshark", "Nmap", "Kali Linux", "ESP32"]
+    languages   = ["Python", "C", "C++", "Bash", "TypeScript"]
+    ai_research = ["Temporal GNNs", "Agentic AI (LangGraph)", "OSINT Intelligence"]
+    motto       = "I redo labs until I can explain every step without notes."
 ```
 
 ---
 
-### 🔴 Active Operations
+### 🔴 What I'm Building
 
-<details open>
-<summary><b>ReconMind — Agentic AI Security Research Platform</b></summary>
-<br>
+<table>
+<tr><td>
 
-> Full-stack agentic AI security research platform (Blockhoppers team) combining an automated attack framework with a multi-task BiLSTM classifier. Ran local LLM inference on Qwen (RTX 4060 Laptop GPU). Six-page observability dashboard (FastAPI + React/Vite). Scoping as a domain-specific security benchmark for multi-agent LLM systems with AgentDojo integration.
+**[ReconMind](https://github.com/meet-the-1337)** — Agentic AI security research platform. Automated attack framework + BiLSTM classifier. Local Qwen inference on RTX 4060. FastAPI + React observability dashboard.
+</td><td>
 
-`Python` `LangGraph` `FastAPI` `React/Vite` `SQLite` `Local LLM`
+**[Atlas Watchtower](https://github.com/meet-the-1337)** — OSINT dashboard aggregating 30+ live sources onto a 3D WebGL map. Client-side ML threat classification (ONNX). Ships as web, PWA, and desktop (Tauri/Rust).
+</td></tr>
+<tr><td>
 
-</details>
+**[TGNN Fraud Detection](https://github.com/meet-the-1337/TGNN-project)** — Blockchain transaction network modeled as temporal graph. Time-aware fraud classification with graph reasoning.
+</td><td>
 
-<details open>
-<summary><b>Atlas Watchtower — Real-Time OSINT Intelligence Dashboard</b></summary>
-<br>
-
-> Open-source OSINT dashboard aggregating 30+ live data sources — earthquakes, military/naval tracking, conflict zones, cyber threats, and markets — onto one interactive 3D WebGL map with 35+ layers. Vercel serverless backend spanning 15+ service domains. Client-side ML inference (ONNX Runtime) for threat classification across 50+ countries. Ships as web app, PWA, and native desktop (Tauri/Rust).
-
-`TypeScript` `deck.gl` `MapLibre GL` `Tauri` `ONNX Runtime`
-
-</details>
-
-<details>
-<summary><b>Blockchain Fraud Detection — Temporal Graph Neural Networks</b></summary>
-<br>
-
-> Modeled blockchain transactions as a temporal graph (wallets = nodes, transactions = time-stamped directed edges). Engineered time-aware features capturing volume, velocity, and hop-distance patterns for TGNN-based fraud classification.
-
-`Python` `Graph ML` `PyTorch` `Blockchain Analytics`
-
-</details>
-
-<details>
-<summary><b>ESP32 WiFi & Bluetooth Jammer</b></summary>
-<br>
-
-> Hardware-based wireless disruption tool using ESP32 microcontroller. Sends 802.11 deauthentication frames + BLE advertising channel interference. Built from scratch using ESP32 SDK — no off-the-shelf frameworks.
-
-`C` `ESP32` `802.11 Deauth` `BLE` `Embedded Systems`
-
-</details>
+**[ESP32 WiFi & BT Jammer](https://github.com/meet-the-1337)** — Hardware wireless disruption tool. 802.11 deauth frames + BLE channel interference. Built from scratch on ESP32 SDK.
+</td></tr>
+</table>
 
 ---
 
-### 🛡️ CTF & Hands-On Security
+### 🛡️ CTF Progress
 
-| Platform | Status | Focus |
-|:---------|:-------|:------|
-| **picoCTF** | 120+ challenges (60 Easy + 60 Medium) | Web Exploitation, Crypto, RE, Forensics, Binary |
-| **TryHackMe** | Daily active streak · Advent of Cyber 2025 ✅ | Web attacks, network defense, forensics, real-world threats |
-| **PortSwigger** | In progress | SQLi, XSS, CSRF, auth vulns, business logic flaws |
-
-> *"I don't rush labs for flags — I redo them until I can explain every step without notes."*
+| Platform | Status | Domains |
+|:---------|:-------|:--------|
+| **picoCTF** | 120+ challenges (60E + 60M) | Web, Crypto, RE, Forensics, Binary |
+| **TryHackMe** | Daily streak · Advent of Cyber '25 ✅ | Web attacks, network defense, threat scenarios |
+| **PortSwigger** | In progress | SQLi, XSS, CSRF, auth bypasses |
 
 ---
 
 ### 🛠️ Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,bash,ts&theme=dark" alt="Languages" />
-  &nbsp;
-  <img src="https://skillicons.dev/icons?i=kali,linux,docker,nginx&theme=dark" alt="Security & Infra" />
-  &nbsp;
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,react,vite,tailwind&theme=dark" alt="Frameworks" />
-  &nbsp;
-  <img src="https://skillicons.dev/icons?i=pytorch,postgres,mongodb,git,github&theme=dark" alt="Data & Tools" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,bash,ts,kali,linux,docker,nginx,fastapi,flask,react,vite,tailwind,pytorch,postgres,mongodb,git,github&theme=dark&perline=10" />
 </p>
 
 ---
 
-### 📊 Stats
+### 📊 GitHub Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=meet-the-1337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=8b949e&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub Stats" height="170" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet-the-1337&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Languages" height="170" />
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=meet-the-1337&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet-the-1337&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
 </p>
 
-<p>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=meet-the-1337&theme=github-dark-blue&hide_border=true&background=0d1117" alt="Streak" />
+<p align="center">
+  <img src="https://nirzak-streak-stats.vercel.app/?user=meet-the-1337&theme=github-dark-blue&hide_border=true" />
 </p>
 
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=meet-the-1337&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
+### 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=meet-the-1337&theme=darkhub&no-frame=true&no-bg=true&column=7" />
 </p>
 
 ---
@@ -162,12 +106,12 @@ class MananSinghal:
 
 ### 🔝 Top Contributed Repos
 
-<p>
-  <img src="https://github-contributor-stats.vercel.app/api?username=meet-the-1337&limit=5&theme=github_dark&combine_all_yearly_contributions=true&hide_border=true&bg_color=0d1117" alt="Top Repos" />
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=meet-the-1337&limit=5&theme=dark&combine_all_yearly_contributions=true" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=meet-the-1337&style=flat-square&color=1a1b27&label=views" alt="views" />
+  <img src="https://komarev.com/ghpvc/?username=meet-the-1337&style=flat-square&color=1a1b27&label=views" />
 </p>
