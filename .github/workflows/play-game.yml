@@ -1,0 +1,50 @@
+name: Play Profile Game
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'game|')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Process Move & Run AI Turn
+        run: |
+          python scripts/play_game.py issue "${{ github.event.issue.title }}" "${{ github.event.issue.user.login }}" "${{ github.repository_owner }}"
+
+      - name: Comment on Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `🤖 **AI Agent Response**: Move processed! The game board on [my profile](https://github.com/${context.repo.owner}) has been updated with my counter-move. Thanks for playing!`
+            });
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            });
+
+      - name: Commit & Push Updated Board
+        run: |
+          git config --global user.name "Profile Game Bot"
+          git config --global user.email "game-bot@users.noreply.github.com"
+          git add README.md data/game_state.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🎮 Update game board: Move by @${{ github.event.issue.user.login }}" && git push)

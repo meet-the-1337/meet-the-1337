@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="70" viewBox="0 0 600 70">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700&amp;display=swap');
+      .mono { font-family: 'JetBrains Mono', monospace; }
+      .title { fill: #00ff41; font-size: 13px; font-weight: 700; }
+      .artist { fill: #8b949e; font-size: 11px; }
+      .bar { fill: #00ff41; rx: 1.5; }
+    </style>
+  </defs>
+
+  <rect width="600" height="70" rx="8" fill="#0d1117" stroke="#00ff41" stroke-width="1"/>
+  <rect x="2" y="2" width="596" height="66" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Spotify Logo / Icon -->
+  <g transform="translate(18, 17)">
+    <circle cx="18" cy="18" r="18" fill="#1db954"/>
+    <path d="M26.2 25.5c-.3.4-.8.5-1.2.3-3.4-2.1-7.7-2.6-12.8-1.4-.5.1-1-.2-1.1-.7-.1-.5.2-1 .7-1.1 5.6-1.3 10.4-.7 14.1 1.6.4.3.5.9.3 1.3zm1.6-3.6c-.4.5-1 .7-1.5.3-3.9-2.4-9.8-3.1-14.4-1.7-.6.2-1.2-.2-1.4-.7-.2-.6.2-1.2.7-1.4 5.2-1.6 11.8-.8 16.2 1.9.5.4.7 1 .4 1.6zm.1-3.8c-4.7-2.8-12.4-3-16.9-1.7-.7.2-1.5-.2-1.7-.9-.2-.7.2-1.5.9-1.7 5.1-1.6 13.6-1.3 19 1.9.6.4.8 1.2.5 1.9-.3.6-1.1.9-1.8.5z" fill="#0d1117"/>
+  </g>
+
+  <!-- Track Info -->
+  <text x="68" y="32" class="mono title">CURRENTLY CODING TO: MASTER BOOT RECORD // C:\&gt; CHKDSK /F</text>
+  <text x="68" y="49" class="mono artist">STATUS: 🎧 SYNAPSE OVERDRIVE • HIGH-FOCUS OFFSEC RESEARCH</text>
+
+  <!-- Animated Equalizer Bars -->
+  <g transform="translate(520, 20)">
+    <rect x="0" y="10" width="4" height="20" class="bar">
+      <animate attributeName="height" values="12;26;6;20;12" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="18;4;24;10;18" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="7" y="5" width="4" height="25" class="bar">
+      <animate attributeName="height" values="24;8;28;14;24" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="6;22;2;16;6" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="14" y="14" width="4" height="16" class="bar">
+      <animate attributeName="height" values="10;28;14;6;10" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="20;2;16;24;20" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="21" y="8" width="4" height="22" class="bar">
+      <animate attributeName="height" values="22;14;6;26;22" dur="0.75s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="8;16;24;4;8" dur="0.75s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="28" y="12" width="4" height="18" class="bar">
+      <animate attributeName="height" values="16;24;10;28;16" dur="0.95s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="14;6;20;2;14" dur="0.95s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="35" y="16" width="4" height="14" class="bar">
+      <animate attributeName="height" values="8;20;26;12;8" dur="0.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="22;10;4;18;22" dur="0.85s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="42" y="6" width="4" height="24" class="bar">
+      <animate attributeName="height" values="26;10;18;6;26" dur="1.0s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="4;20;12;24;4" dur="1.0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
