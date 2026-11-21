@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/manan-singhal-a566aa321/"><img src="https://img.shields.io/badge/LinkedIn-Manan_Singhal-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://tryhackme.com/p/MeetThe1337"><img src="https://img.shields.io/badge/TryHackMe-Top_5%25-212C42?style=flat&logo=tryhackme&logoColor=white" alt="TryHackMe"/></a>
+  <a href="https://tryhackme.com/p/MeetThe1337"><img src="https://img.shields.io/badge/TryHackMe-Top_5%25_·_136_rooms-212C42?style=flat&logo=tryhackme&logoColor=white" alt="TryHackMe"/></a>
   <a href="https://learn.cylabacademy.org/users/manansinghal77"><img src="https://img.shields.io/badge/picoCTF%20%2F%20CyLab-117_solves-1E293B?style=flat" alt="picoCTF"/></a>
 </p>
 
@@ -23,7 +23,7 @@
 
 | Project | What it is | Result | Stack |
 |---|---|---|---|
-| [**ReconMind**](https://github.com/meet-the-1337/AgenticAi-deployemnt-attack-analyzer) | Red-teams a LangGraph multi-agent pipeline with 4 attack classes, labels outcomes with a multi-signal oracle, and trains a detector on the traces | 0.965 F1 / 0.996 AUC on 533 traces; 27k-event AgentDojo dataset | Python, LangGraph, PyTorch, Ollama, FastAPI, React |
+| [**ReconMind**](https://github.com/meet-the-1337/reconmind) | Red-teams a LangGraph multi-agent pipeline with 4 attack classes, labels outcomes with a multi-signal oracle, and trains a detector on the traces | 0.965 F1 / 0.996 AUC on 533 traces; 27k-event AgentDojo dataset | Python, LangGraph, PyTorch, Ollama, FastAPI, React |
 | [**THGT**](https://github.com/meet-the-1337/ThGT-for-agent-security) | Temporal graph transformer that catches prompt-injection payloads that stay dormant across agent hand-offs | Beats a static MLP baseline that misses >75% of attacks | PyTorch Geometric, NetworkX |
 | [**Wazuh SIEM lab**](https://github.com/meet-the-1337/wazuh-siem) | Ubuntu Wazuh stack monitoring a Windows 11 endpoint, with FIM and noise tuning | Full write-up of every failure and fix | Wazuh, OpenSearch, UFW |
 | [**Pen-sec**](https://github.com/meet-the-1337/Pen-sec) | Metasploit resource script that automates Windows post-exploitation in a lab | Lab-only PoC | Metasploit, Windows |
