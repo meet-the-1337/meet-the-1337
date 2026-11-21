@@ -1,139 +1,49 @@
-<div align="center">
-
-# Meet The 1337
-
-**Offensive Security &amp; AI Systems Researcher**  
-*Offensive Security Researcher &amp; Systems Engineer*
-
-[![GitHub](https://img.shields.io/badge/GitHub-meet--the--1337-181717?style=flat&logo=github&logoColor=white)](https://github.com/meet-the-1337)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-MeetThe1337-212C42?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/MeetThe1337)
-[![picoCTF](https://img.shields.io/badge/picoCTF-120+_Solves-1E293B?style=flat&logo=ctfd&logoColor=38BDF8)](https://play.picoctf.org/)
-[![PGP](https://img.shields.io/badge/PGP-Verified-success?style=flat&logo=gnupg&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Contact-Encrypted-blue?style=flat&logo=protonmail&logoColor=white)](mailto:meet-the-1337@users.noreply.github.com)
-
-</div>
-
----
-
-### 💼 Executive Summary
-
-Second-year Computer Science student specializing in the intersection of **offensive security**, **hardware-based wireless attacks**, and **security-oriented machine learning**. 
-
-- **Offensive Security &amp; CTF:** Solved **120+ challenges across picoCTF** (Web Exploitation, Cryptography, Reverse Engineering, Forensics, and Binary Exploitation) with an active daily streak on **TryHackMe**.
-- **Hardware Security:** Built a wireless protocol disruption toolkit on an ESP32 microcontroller from scratch using native C/SDK (802.11 deauthentication and BLE channel interference).
-- **AI Systems &amp; Graph ML:** Architecting **ReconMind**, an agentic AI security platform with local Qwen inference on an RTX 4060 GPU, and trained **Temporal Graph Neural Networks (TGNN)** for blockchain fraud and intrusion detection.
-
----
-
-### 🚀 Featured Engineering Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🧠 [ReconMind](https://github.com/meet-the-1337)
-*Agentic AI Security Research Platform (2025 – 2026)*
-
-- Built an automated attack framework coupled with a multi-task BiLSTM classifier for testing multi-agent LLM vulnerabilities.
-- Executed offline inference locally on **Qwen models via an RTX 4060 GPU**, eliminating external API dependencies.
-- Designed a 6-page observability and attack tracking dashboard with FastAPI and React/Vite.
-- **Tech:** `Python` `LangGraph` `FastAPI` `React` `SQLite` `Local LLM`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🛰️ [Atlas Watchtower](https://github.com/meet-the-1337)
-*Real-Time OSINT Intelligence Dashboard (2026)*
-
-- Aggregates **30+ live data streams** (military tracking, earthquakes, conflict zones, cyber threats) onto an interactive 3D WebGL map with 35+ layers.
-- Deployed client-side ML threat inference via **ONNX Runtime** for real-time instability scoring across 50+ countries.
-- Shipped cross-platform as Web app, PWA, and desktop application via Tauri/Rust.
-- **Tech:** `TypeScript` `deck.gl` `MapLibre GL` `Tauri` `ONNX Runtime`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 📊 [TGNN Blockchain Fraud Detection](https://github.com/meet-the-1337)
-*Temporal Graph Neural Networks for Anomaly Detection (2025)*
-
-- Modeled blockchain transaction networks as dynamic temporal graphs: wallets as nodes, timestamped transactions as directed edges.
-- Engineered time-aware feature representations capturing velocity, transaction volume, and hop-distance patterns.
-- Demonstrated graph reasoning principles for network intrusion detection and entity reputation scoring.
-- **Tech:** `Python` `PyTorch Geometric` `Graph ML` `Blockchain Analytics`
-
-</td>
-<td width="50%" valign="top">
-
-#### 📡 [ESP32 Wireless Security Toolkit](https://github.com/meet-the-1337)
-*Hardware-Level 802.11 &amp; BLE Protocol Assessment (2025)*
-
-- Implemented 802.11 deauthentication frame generation to evaluate wireless access point resilience at the packet/frame level.
-- Developed BLE advertising channel interference to audit Bluetooth Low Energy protocol vulnerabilities.
-- Programmed entirely in bare-metal C against the native ESP32 SDK without external abstraction layers.
-- **Tech:** `Embedded C` `ESP32 SDK` `802.11 Protocols` `BLE` `RF Security`
-
-</td>
-</tr>
-</table>
-
----
-
-### 🛡️ CTF &amp; Hands-On Security Track Record
-
-| Platform | Milestone | Primary Focus Areas |
-| :--- | :--- | :--- |
-| **picoCTF** | **120+ Solved** (60 Easy + 60 Medium) | Web Exploitation, Cryptography, Reverse Engineering, Binary Exploitation, Forensics |
-| **TryHackMe** | **Daily Active Streak** · AoC '25 Completed | Web application testing, Linux privilege escalation, network defense |
-| **PortSwigger Academy** | **Active Labs** | In-depth exploitation of SQLi, XSS, CSRF, authentication logic, SSRF |
-| **Raw Socket Tooling** | **Custom TCP Port Scanner** | Handcrafted raw socket scanner in Python with service banner grabbing |
-
-> *"I don't rush labs for flags — I redo them until I can explain every step without notes."*
-
----
-
-### 🛠️ Technical Competencies
-
-- **Languages:** Python, C, C++, Bash, TypeScript
-- **Security &amp; Pentesting:** Burp Suite, Wireshark, Nmap, Metasploit, Kali Linux, Linux CLI
-- **AI / Machine Learning:** LangGraph (Agentic AI), Temporal Graph Neural Networks (TGNN), PyTorch, ONNX Runtime, Local LLMs
-- **Hardware &amp; RF:** ESP32, 802.11 Protocols, Bluetooth Low Energy (BLE), Embedded Systems
-- **Web &amp; Systems:** FastAPI, React, Node.js, Express, PostgreSQL, SQLite, Docker, Git, Linux (CachyOS/Arch)
-
----
-
-### 📊 GitHub Activity &amp; Engineering Metrics
-
-<div align="center">
-
-<table border="0">
-<tr>
-<td>
-  <img src="https://github-readme-stats.vercel.app/api?username=meet-the-1337&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true&disable_animations=true" height="175" />
-</td>
-<td>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet-the-1337&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&disable_animations=true" height="175" />
-</td>
-</tr>
-</table>
+<h1 align="center">Manan Singhal</h1>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=meet-the-1337&theme=github-dark-blue&background=0d1117&hide_border=true&disable_animations=true" />
+  <b>CS student at Thapar · I build and break LLM agents, and write detections for what I find.</b><br/>
+  AI/LLM security · Detection engineering · Open to Summer 2027 security internships
 </p>
 
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/manan-singhal-a566aa321/"><img src="https://img.shields.io/badge/LinkedIn-Manan_Singhal-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://tryhackme.com/p/MeetThe1337"><img src="https://img.shields.io/badge/TryHackMe-Top_5%25_·_136_rooms-212C42?style=flat&logo=tryhackme&logoColor=white" alt="TryHackMe"/></a>
+  <a href="https://learn.cylabacademy.org/users/manansinghal77"><img src="https://img.shields.io/badge/picoCTF%20%2F%20CyLab-117_solves-1E293B?style=flat" alt="picoCTF"/></a>
+</p>
 
 ---
 
-### 🐍 Contribution Matrix
+### What I work on
 
-<div align="center">
+- **Attacking multi-agent LLM systems** with prompt injection, memory poisoning and tool misuse, then training models that detect those attacks from execution traces.
+- **Blue-team tooling:** SIEM deployment, file integrity monitoring and detection tuning on a Linux + Windows lab.
+- **Practice:** 250+ hands-on challenges across TryHackMe (global top 5%) and picoCTF / CMU CyLab.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meet-the-1337/meet-the-1337/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/meet-the-1337/meet-the-1337/output/github-snake.svg" />
-  <img alt="Snake eating GitHub commits" src="https://raw.githubusercontent.com/meet-the-1337/meet-the-1337/output/github-snake-dark.svg" width="100%" />
-</picture>
+### Featured projects
 
-</div>
+| Project | What it is | Result | Stack |
+|---|---|---|---|
+| [**ReconMind**](https://github.com/meet-the-1337/reconmind) | Red-teams a LangGraph multi-agent pipeline with 4 attack classes, labels outcomes with a multi-signal oracle, and trains a detector on the traces | 0.965 F1 / 0.996 AUC on 533 traces; 27k-event AgentDojo dataset | Python, LangGraph, PyTorch, Ollama, FastAPI, React |
+| [**THGT**](https://github.com/meet-the-1337/ThGT-for-agent-security) | Temporal graph transformer that catches prompt-injection payloads that stay dormant across agent hand-offs | Beats a static MLP baseline that misses >75% of attacks | PyTorch Geometric, NetworkX |
+| [**Wazuh SIEM lab**](https://github.com/meet-the-1337/wazuh-siem) | Ubuntu Wazuh stack monitoring a Windows 11 endpoint, with FIM and noise tuning | Full write-up of every failure and fix | Wazuh, OpenSearch, UFW |
+| [**Pen-sec**](https://github.com/meet-the-1337/Pen-sec) | Metasploit resource script that automates Windows post-exploitation in a lab | Lab-only PoC | Metasploit, Windows |
+| [**SheroFetch**](https://github.com/meet-the-1337/SheroFetch) | Cross-platform desktop + Android app for organising a personal lossless music library | Releases for Windows, Linux, Android | TypeScript, Rust/Tauri, Python |
+
+### Tools I use
+
+**Security:** Burp Suite · Nmap · Wireshark · Metasploit · Wazuh · Linux privilege escalation
+**AI/ML:** PyTorch · PyTorch Geometric · LangGraph · Ollama · scikit-learn
+**Languages:** Python · C · C++ · TypeScript · Bash · SQL
+**Systems:** Arch Linux · Docker · Git · FastAPI · PostgreSQL · SQLite
+
+### Currently
+
+- Adding reproducible demos and tests to ReconMind and THGT.
+- Working through PortSwigger Web Security Academy labs.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/meet-the-1337/meet-the-1337/output/github-snake-dark.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/meet-the-1337/meet-the-1337/output/github-snake.svg" />
+  </picture>
+</p>
